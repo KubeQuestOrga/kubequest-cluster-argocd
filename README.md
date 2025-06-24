@@ -11,6 +11,7 @@ sudo chmod 644 /etc/rancher/k3s/k3s.yaml
 sudo helm repo add argo https://argoproj.github.io/argo-helm
 sudo helm repo update
 sudo KUBECONFIG=/etc/rancher/k3s/k3s.yaml helm install my-argo-cd argo/argo-cd --version 8.1.1 --namespace argo-cd --create-namespace
+sudo kubectl apply -f certificate.yaml
 ```
 
 <br /><br /><br /><br />
