@@ -1,6 +1,6 @@
 # KubeQuest - Argo CD - Cluster K3s
 
-## 🚀 Pourquoi Argo CD ❓
+## Pourquoi Argo CD ❓
 
 Argo CD est un outil GitOps natif pour Kubernetes.  
 Il permet de **synchroniser automatiquement l’état du cluster** avec un dépôt Git contenant la définition des ressources à déployer.
