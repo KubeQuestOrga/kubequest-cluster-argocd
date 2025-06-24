@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: staging-kubequest-backend
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/KubeQuestOrga/kubequest-app-backend
+    targetRevision: staging
+    path: k8s/staging
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: staging-project-kubequest-backend
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
+    syncOptions:
+      - CreateNamespace=true
