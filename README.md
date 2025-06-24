@@ -17,7 +17,7 @@ sudo kubectl apply -f certificate.yaml
 <br /><br /><br /><br />
 
 
-## 🚀 Update chart CertManager HELM for values.yaml
+## 🚀 Update chart ArgoCD HELM for values.yaml
 1. Connect to the NODE MASTER in Cluster K3S.
 2. Récupérer les fichiers manifest dans : k8s/, puis les déposer sur le serveur.
 3. Run command :
