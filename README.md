@@ -1,5 +1,19 @@
 # KubeQuest - Argo CD - Cluster K3s
 
+## 🚀 Pourquoi Argo CD ❓
+
+Argo CD est un outil GitOps natif pour Kubernetes.  
+Il permet de **synchroniser automatiquement l’état du cluster** avec un dépôt Git contenant la définition des ressources à déployer.
+
+Cela apporte :
+- Un **déploiement automatisé** et déclaratif des applications.
+- Un **historique clair des changements** via Git.
+- Une **interface web** pour suivre en temps réel les états, les diffs, les synchronisations et les erreurs.
+- Une **intégration simple avec Helm, Kustomize, ou des manifests bruts**.
+
+<br /><br /><br /><br />
+
+  
 ## ⚙ Setup Environment
 1. Connect to the NODE MASTER in Cluster K3S.
 2. Install HELM : https://helm.sh/docs/intro/install/
